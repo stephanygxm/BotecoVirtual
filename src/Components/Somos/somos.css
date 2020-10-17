@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardSomos {
+  width: 260px;
+  height: 350px;
+  border: 1px solid #e2e2e2;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+@media (max-width: 1170px) {
+  #container {
+    height: auto;
+  }
+}
+
+.background-img {
+  width: 100%;
+  height: 30%;
+  background: black;
+  position: relative;
+  margin-bottom: 5.4rem;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.img {
+  position: absolute;
+  top: 35%;
+  left: 28%;
+  border: 5px solid white;
+  max-width: 45%;
+  border-radius: 50%;
+}
+
+.styleP {
+  margin-bottom: 2rem;
+}
+
+#main-icons {
+  padding: 5px;
+}
+.icon-rede {
+  font-size: 1.5rem;
+  color: #e6b908;
+  margin: 10px;
+}

@@ -1,0 +1,13 @@
+.thumbs-wrapper {
+  display: none;
+  outline: none;
+}
+.carousel-status {
+  visibility: hidden;
+}
+
+@media (max-width: 750px) {
+  .carousel .slider img {
+    height: 73vh;
+  }
+}

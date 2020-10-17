@@ -1,0 +1,77 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+  width: 80%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.button-filter {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: auto;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.button-filter Button {
+  width: 180px;
+  height: 60px;
+  font-family: "Anonymous Pro", monospace;
+  cursor: pointer;
+  padding: 20px;
+  background-color: #e6b908;
+  color: white;
+  font-size: 15pt;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  line-height: 15px;
+}
+
+.button-filter Button:hover {
+  background-color: black;
+}
+
+.active-item {
+  color: black;
+  font-weight: bold;
+  outline: none;
+}
+
+@media (max-width: 900px) {
+  .button-filter Button {
+    width: 150px;
+    font-size: 13pt;
+  }
+}
+
+@media (max-width: 750px) {
+  .button-filter Button {
+    width: 120px;
+    font-size: 13pt;
+  }
+}
+
+@media (max-width: 600px) {
+  .button-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-filter Button {
+    width: 245px;
+    font-size: 13pt;
+    margin-bottom: 10px;
+  }
+}
